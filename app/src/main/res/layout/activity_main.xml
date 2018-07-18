@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#F0E6FD"
+
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="82dp"
+        android:layout_y="84dp"
+
+        android:text="请输入姓名："
+        android:textColor="#00E5BE" />
+
+    <EditText
+        android:id="@+id/search_et"
+        android:layout_width="109dp"
+        android:layout_height="wrap_content"
+        android:layout_x="189dp"
+        android:layout_y="73dp"
+        android:hint="姓名"
+        android:textColor="#00E5BE"
+        android:textSize="18sp" />
+
+
+    <Button
+        android:id="@+id/search_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="130dp"
+        android:layout_y="137dp"
+        android:background="#F0E6FD"
+        android:text="查询联系人"
+        android:textColor="#00E5BE" />
+
+    <Button
+        android:id="@+id/btn_add"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="242dp"
+        android:layout_y="136dp"
+        android:background="#F0E6FD"
+        android:text="添加联系人"
+        android:textColor="#00E5BE" />
+
+    <ListView
+        android:id="@+id/result_listView"
+        android:layout_width="match_parent"
+        android:layout_height="296dp"
+        android:layout_alignParentTop="true"
+        android:layout_x="0dp"
+        android:layout_y="213dp"
+        tools:layout_editor_absoluteX="219dp"
+        tools:layout_editor_absoluteY="455dp" />
+
+    <Button
+        android:id="@+id/btn_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="22dp"
+        android:layout_y="137dp"
+        android:background="#F0E6FD"
+        android:text="删除联系人"
+        android:textColor="#00E5BE"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="130dp" />
+
+</AbsoluteLayout>
+

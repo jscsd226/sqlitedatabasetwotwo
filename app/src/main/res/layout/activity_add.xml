@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<AbsoluteLayout
+    android:id="@+id/widget0"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F0E6FD"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <EditText
+        android:id="@+id/add_word"
+        android:layout_width="181dp"
+        android:layout_height="wrap_content"
+        android:layout_x="144dp"
+        android:layout_y="40dp"
+        android:hint="姓名"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/add_interpret"
+        android:layout_width="180dp"
+        android:layout_height="wrap_content"
+        android:layout_x="146dp"
+        android:layout_y="94dp"
+        android:hint="联系方式"
+        android:inputType="number"
+        android:maxLength="11"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/widget39"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="55dp"
+        android:layout_y="54dp"
+
+        android:text="请输入姓名：" />
+
+    <TextView
+        android:id="@+id/widget40"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="56dp"
+        android:layout_y="106dp"
+
+        android:text="请输入电话：" />
+
+    <Button
+        android:id="@+id/save_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="88dp"
+        android:layout_y="160dp"
+        android:text="保存" />
+
+    <Button
+        android:id="@+id/cancel_btn1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_x="213dp"
+        android:layout_y="159dp"
+        android:text="返回" />
+</AbsoluteLayout>
